@@ -54,6 +54,13 @@ app.post('/searchventbyname', middleware.checkToken, (req, res) =>
     console.log(name);
     var ventilatordetails = db.collection('ventilator').find({'name' : new RegExp(name, 'i')}).toArray().then(result => res.json(result));
 });
+//search hospital by name
+app.post('/searchhospbyname', middleware.checkToken, (req, res) => 
+{
+    var name = req.query.name;
+    console.log(name);
+    var ventilatordetails = db.collection('hospital').find({'name' : new RegExp(name, 'i')}).toArray().then(result => res.json(result));
+});
 //update ventilator details
 app.put('/updateventilator', middleware.checkToken, (req, res) => 
 {
