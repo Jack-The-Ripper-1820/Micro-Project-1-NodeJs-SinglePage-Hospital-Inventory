@@ -1,0 +1,151 @@
+hospital
+[
+    {
+        "_id": "5f7056cc867474847849fe95",
+        "hid": "H1",
+        "name": "Apollo",
+        "location": "16.23255,78.53555",
+        "address": "PLot no. 1-13-245/35/1 MLA Quarters Hyderabad 500029",
+        "contactNo": "040-23231380"
+    },
+    {
+        "_id": "5f72d9eb275722dec65119b5",
+        "hid": "H2",
+        "name": "Alchemax",
+        "location": "125.2165,241.14366",
+        "address": "Alchemax Tower, Manhattan, New York, New York",
+        "contactNo": "3940823291"
+    },
+    {
+        "_id": "5f72ddc9275722dec65119b6",
+        "hid": "H3",
+        "name": "Oscorp",
+        "location": "56.246346,223,4534634",
+        "address": "Oscorp Tower, Manhattan, New York, New York",
+        "contactNo": "18924032"
+    },
+    {
+        "_id": "5f72ddc9275722dec65119b7",
+        "hid": "H4",
+        "name": "Gotham General Hospital",
+        "location": "12.5367,364.2464",
+        "address": "Two Blocks from Gotham Square, Gotham City, New Jersey",
+        "contactNo": "1927390103"
+    },
+    {
+        "_id": "5f72dee3275722dec65119b8",
+        "hid": "H5",
+        "name": "Wayne HealthCare",
+        "location": "390.2421413,134.242563",
+        "address": "StreetNo.193-12, Near Wayne Tower, Gotham City, New Jersey",
+        "contactNo": "6749392021"
+    }
+]
+ventilator
+[
+    {
+        "_id": "5f72efd7275722dec65119b9",
+        "hid": "H1",
+        "ventilatorid": "H1V1",
+        "status": "occupied",
+        "name": "Apollo"
+    },
+    {
+        "_id": "5f72efd7275722dec65119ba",
+        "hid": "H1",
+        "ventilatorid": "H1V2",
+        "status": "available",
+        "name": "Apollo"
+    },
+    {
+        "_id": "5f7333c800c5d15eca1ea331",
+        "hid": "H2",
+        "ventilatorid": "H2V1",
+        "status": "repair",
+        "name": "Alchemax"
+    },
+    {
+        "_id": "5f7333db00c5d15eca1ea332",
+        "hid": "H2",
+        "ventilatorid": "H2V2",
+        "status": "available",
+        "name": "Alchemax"
+    },
+    {
+        "_id": "5f7333eb00c5d15eca1ea333",
+        "hid": "H2",
+        "ventilatorid": "H2V3",
+        "status": "occupied",
+        "name": "Alchemax"
+    },
+    {
+        "_id": "5f73341600c5d15eca1ea334",
+        "hid": "H3",
+        "ventilatorid": "H3V1",
+        "status": "available",
+        "name": "Oscorp"
+    },
+    {
+        "_id": "5f73342600c5d15eca1ea335",
+        "hid": "H3",
+        "ventilatorid": "H3V2",
+        "status": "repair",
+        "name": "Oscorp"
+    },
+    {
+        "_id": "5f73343700c5d15eca1ea336",
+        "hid": "H3",
+        "ventilatorid": "H3V3",
+        "status": "occupied",
+        "name": "Oscorp"
+    },
+    {
+        "_id": "5f73347400c5d15eca1ea337",
+        "hid": "H4",
+        "ventilatorid": "H4V1",
+        "status": "occupied",
+        "name": "Gotham General Hospital"
+    },
+    {
+        "_id": "5f73348c00c5d15eca1ea338",
+        "hid": "H4",
+        "ventilatorid": "H4V2",
+        "status": "repair",
+        "name": "Gotham General Hospital"
+    },
+    {
+        "_id": "5f73349d00c5d15eca1ea339",
+        "hid": "H4",
+        "ventilatorid": "H4V3",
+        "status": "available",
+        "name": "Gotham General Hospital"
+    },
+    {
+        "_id": "5f7334de00c5d15eca1ea33a",
+        "hid": "H5",
+        "ventilatorid": "H5V1",
+        "status": "available",
+        "name": "Wayne HealthCare"
+    },
+    {
+        "_id": "5f7334ee00c5d15eca1ea33b",
+        "hid": "H5",
+        "ventilatorid": "H5V2",
+        "status": "repair",
+        "name": "Wayne HealthCare"
+    },
+    {
+        "_id": "5f7334fa00c5d15eca1ea33c",
+        "hid": "H5",
+        "ventilatorid": "H5V3",
+        "status": "occupied",
+        "name": "Wayne HealthCare"
+    },
+    {
+        "_id": "5f75747244a1284dc853f060",
+        "hid": "H1",
+        "ventilatorid": "H1V3",
+        "status": "repair",
+        "name": "Apollo"
+    }
+]
